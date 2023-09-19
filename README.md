@@ -1,2 +1,2 @@
 # Synco
-A blog project using MERN tech.
+Barebone Skeleton or project starter with auth using MERN tech.

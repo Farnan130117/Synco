@@ -1,0 +1,53 @@
+/* style.css */
+.my-custom-div {
+    /* Your custom styles here */
+    /* For example, changing the background color to red */ 
+    background: rgb(34,193,195) ;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,170,45,1) 100%) ;
+    /* You can add more custom styles as needed */
+  }
+
+  .my-div {
+    width: 100%;
+    max-width: 400px; /* Set a maximum width for the div */
+    margin: 0 auto; /* Center the div horizontally */
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+
+  .my-dashboard {
+    
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+  }
+
+  /* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .my-custom-div {
+        background: rgb(34,193,195) ;
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,170,45,1) 100%) ; /* Change background color for smaller screens */
+      /* Add other styles for smaller screens */
+    }
+
+    .my-div {
+        width: 90%; /* Make the div narrower for smaller screens */
+        padding: 10px; /* Reduce padding for smaller screens */
+      }
+      
+  }
+  
+  /* Media query for screens larger than 1200px */
+  @media (min-width: 1200px) {
+    .my-custom-div {
+        background: rgb(34,193,195) ;
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,170,45,1) 100%) ; /* Change background color for larger screens */
+      /* Add other styles for larger screens */
+    }
+
+    .my-div {
+        width: 80%; /* Wider width for larger screens */
+        padding: 30px; /* More padding for larger screens */
+      }
+  }
