@@ -1,2 +1,2 @@
 # Synco
-Barebone Skeleton or project starter with auth using MERN tech.
+A barebone skeleton or project starter with auth using MERN tech.
